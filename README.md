@@ -25,5 +25,6 @@ Functional verification was executed to validate timing sequences and state pers
 ## Repository Structure
 ```text
 ├── design.sv       # FSM Controller RTL design code
-├── testbench.sv    # Verification testbench and clock/reset generators
+├── testbench.sv   # Verification testbench and clock/reset generators
+├── run.sh
 └── README.md
