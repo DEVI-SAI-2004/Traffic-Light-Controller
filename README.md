@@ -12,7 +12,7 @@ An RTL implementation of an automated, sequential Traffic Light Controller desig
 
 ### RTL Schematic Diagram
 *(Synthesized structural schematic showing state registers, multiplexers, and comparators)*  
-![Traffic Light Controller Schematic](path_to_image_or_link_if_embedded)
+<img width="987" height="824" alt="Screenshot 2026-09-27 123644" src="https://github.com/user-attachments/assets/aefebf24-fb81-480d-823b-9f0d245ec7c3" />
 
 ## Verification & Waveform Analysis
 Functional verification was executed to validate timing sequences and state persistence across extensive clock cycles.
@@ -20,7 +20,7 @@ Functional verification was executed to validate timing sequences and state pers
 * **Simulation Tool:** ModelSim / EDA Playground
 * **Key Observations:** Verified that timer thresholds (configured via comparative logic) trigger correct state alterations without overlap or race conditions.
 * **Simulation Waveform:**
-![Traffic Light Controller Waveform](path_to_image_or_link_if_embedded)
+<img width="1917" height="345" alt="Screenshot 2026-09-30 090411" src="https://github.com/user-attachments/assets/2e2cd65e-a75e-4dfa-87eb-94c5ab435398" />
 
 ## Repository Structure
 ```text
